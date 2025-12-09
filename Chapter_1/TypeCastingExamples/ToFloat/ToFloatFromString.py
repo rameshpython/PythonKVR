@@ -1,30 +1,30 @@
 
 s = "42"
-num = int(s)
-print(num) #42
+num = float(s)
+print(num)
 
 
 s1 = ("2346533")
-num = int(s1 )
-print(num) #2346533
+num = float(s1 )
+print(num)
 
 
 
 
 # Binary string
 s = "1010"
-num = int(s)
-print(num) #
+num = float(s)
+print(num)
 
 # Hexadecimal string
 s = "A"
-num = int(s, 16)
+num = float(int(s ,16))
 print(num)
 
 
 s = "abc"
 try:
-    num = int(s)
+    num = float(s)
     print(num)
 except ValueError:
     print("Invalid input: cannot convert to integer")
@@ -32,7 +32,7 @@ except ValueError:
 
 s = "12345"
 if s.isdigit():
-    num = int(s)
+    num = float(s)
     print(num)
 else:
     print("The string is not numeric.")
@@ -63,7 +63,7 @@ s = "hello"
 ascii_characters = [ord(ch) for ch in s]
 print(ascii_characters,type(ascii_characters))
 
-result = int(ascii_characters[1])
+result = float(ascii_characters[1])
 print(result,type(result))
 
 result1 = chr(ascii_characters[0])

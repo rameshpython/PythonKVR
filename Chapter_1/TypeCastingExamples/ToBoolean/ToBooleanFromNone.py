@@ -1,14 +1,13 @@
-'''
 a = None
-result = int(a)
-print(result)
-'''
+b = bool(a)
+print(b)
+
 b = []
-result = int(b)
+result = bool(b)
 print(b)
 
 c = ()
-result1 = int(c)
+result1 = bool(c)
 print(c)
 
 d = None
@@ -24,3 +23,8 @@ c =None ==False
 d = None == None
 
 print(a,b,c,d)
+
+
+
+
+

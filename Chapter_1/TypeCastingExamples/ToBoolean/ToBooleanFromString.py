@@ -1,30 +1,28 @@
-
 s = "42"
-num = int(s)
-print(num) #42
-
+num = bool(s)
+print(num,type(num))
 
 s1 = ("2346533")
-num = int(s1 )
-print(num) #2346533
+num1 = bool(s1 )
+print(num1,type(num1))
 
 
 
 
-# Binary string
+
 s = "1010"
-num = int(s)
-print(num) #
+num3 = bool(s)
+print(num3,type(num3))
 
 # Hexadecimal string
 s = "A"
-num = int(s, 16)
-print(num)
+num4 = bool(int(s, 16))
+print(num4,type(num4))
 
 
 s = "abc"
 try:
-    num = int(s)
+    num = bool(s)
     print(num)
 except ValueError:
     print("Invalid input: cannot convert to integer")
@@ -32,7 +30,7 @@ except ValueError:
 
 s = "12345"
 if s.isdigit():
-    num = int(s)
+    num = bool(s)
     print(num)
 else:
     print("The string is not numeric.")

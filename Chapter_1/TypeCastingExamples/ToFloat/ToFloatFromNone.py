@@ -1,8 +1,3 @@
-'''
-a = None
-result = int(a)
-print(result)
-'''
 b = []
 result = int(b)
 print(b)

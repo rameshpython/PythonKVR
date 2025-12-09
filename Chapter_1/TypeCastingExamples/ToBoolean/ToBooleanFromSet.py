@@ -1,15 +1,11 @@
-
 s = {10,20,30,40,50,60}
-result = int(list(s)[3])
+result = bool(list(s)[3])
 print(result,type(result))
 
 
 
 
 s = {10,20,30}
-n = int(list(s)[1])
+n = bool(list(s)[1])
 print(n,type(n))
-
-
-
 

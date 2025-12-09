@@ -1,9 +1,9 @@
 
 x = 2 + 4j
-result = int(x.real)
-result1 = int(x.imag)
-print(result)
-print(result1)
+result = bool(x.real)
+result1 = bool(x.imag)
+print(result,type(result))
+print(result1,type(result1))
 
 
 
@@ -19,8 +19,8 @@ a = 4 + 6j
 r = a.real
 s = a.imag
 
-result = int(r)
-result1 = int(s)
+result = bool(r)
+result1 = bool(s)
 print(result)
 print(result1)
 
@@ -43,8 +43,8 @@ w = f.imag
 
 result = complex(g)
 result2 = complex(f)
-result3 = int(e)
-result4 = int(w)
+result3 = bool(e)
+result4 = bool(w)
 print(result)
 print(result2)
 print(result3)
