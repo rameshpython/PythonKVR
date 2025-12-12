@@ -1,17 +1,15 @@
-# list=[1]
-#
-# print(list)
+list=[1]
+print(list)
 
 
 
 boolean_true = True
-result1 = list(boolean_true)
-print(result1)  #   [1]
+list = []
+list.append(boolean_true)
+print(list)  #   [1]
 
-#
-#
-#
-#
-# boolean_false = False
-# result2 = list(boolean_false) # [0]
-# print(result2)
+
+bool = False
+list = []
+list.append(bool)
+print(list)  #   [0]

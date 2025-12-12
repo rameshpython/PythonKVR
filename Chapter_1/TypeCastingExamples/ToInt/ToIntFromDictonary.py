@@ -5,8 +5,7 @@ print(result)#TypeError: int() argument must be a string, a bytes-like object or
              #bacause dict takes more bytes and 'n' number of values still 'RAM' storage completes .But 'int' Data
              #type is lessbytes and it is lessthen 'dict' storage so we get's an error .
 '''
-from Chapter_1.TypeCastingExamples.ToInt.ToIntFromTuple import result
-from Chapter_1.TypeCastingFloatToInt4 import value
+
 
 d1 = {"10":"Apple","20":"Mango","30":"kiwi","40":"berry"}
 num = str(d1["10"])

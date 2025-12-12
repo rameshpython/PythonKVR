@@ -9,6 +9,6 @@ print(result,type(result1))
 
 
 
-fs = {10,20,30}
+fs = ({10,20,30})
 n = int(list(fs)[1])
 print(n,type(n))

@@ -4,12 +4,12 @@ result = int(a)
 print(result)
 '''
 b = []
-result = int(b)
-print(b)
+#result = int(b)
+print(b,type(b))
 
 c = ()
-result1 = int(c)
-print(c)
+#result1 = int(c)
+print(c,type(c))
 
 d = None
 res = type(d)
