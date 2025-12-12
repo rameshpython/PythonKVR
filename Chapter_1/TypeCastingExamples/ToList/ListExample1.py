@@ -1,18 +1,10 @@
-from operator import index
-
-lst = []
-lst.insert(4,177)
-print(lst,type(lst))
-print(lst.index(177))
+# x =10
+# listx = [None] *10
+# listx[5] =10
+# print(listx)
 
 
 
-L = []
-L.insert(0,177)
-print(L)
-
-
-
-L = [None] * 5
-L[3] = 144
-print(L)
+x =True,    #Type casting
+result = list(x)
+print(result)
