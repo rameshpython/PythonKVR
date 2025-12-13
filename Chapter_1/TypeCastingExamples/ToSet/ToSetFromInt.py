@@ -1,3 +1,3 @@
 a = 10 ,20 ,30 ,40 ,50 ,60
-result = list(a)
+result = set(a)
 print(result,type(result))

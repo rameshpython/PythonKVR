@@ -5,6 +5,14 @@ print(result,type(result))
 print(result1,type(result1))
 
 
+
+d2 = {"10":"Apple","20":"Mango","30":"grapes","40":"kiwi","50":"berry"}
+result = list(list(d2.keys())[4])
+print(result,type(result))
+
+
+
+
 '''
 d = {11:"Apple",21:"Mango",31:"grapes",41:"kiwi",51:"berry"}
 result1 = list(list(d.keys())[2])
