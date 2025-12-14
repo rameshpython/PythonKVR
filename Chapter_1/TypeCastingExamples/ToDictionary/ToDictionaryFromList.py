@@ -1,6 +1,7 @@
 a = [10,20,30,40]
-b = {index: value for index, value in enumerate(a)}
-print(b)
+b = {index: value for index, value in enumerate(a)} #enumerate is indexing the values from starting (0 to default value
+print(b)                                            #Were till end what value we given.at that end point it gives index.
+                                                    #so we use enumerate for that.mostly we can use in range,and itreable ones.
 
 
 
