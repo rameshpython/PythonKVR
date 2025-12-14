@@ -1,4 +1,5 @@
 a = [10]
-result = int(a)
+result = int(a[0])
+print((result))
 
 
