@@ -1,5 +1,5 @@
 
-x = "john ,5 class,2 rank,530 marks,st.xavier_high_school"
+x = "john ,5 class,2 rank, 530 marks,st.xavier_high_school"
 #x1 = x.split()
 #print(x,len(x1))
 
