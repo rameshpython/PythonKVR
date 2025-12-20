@@ -14,6 +14,6 @@ s = "PYthOn23.45"
 s4 = s.swapcase()
 print(s4)
 
-s = "@#$%^&()"
+s = "@#$%^&() "
 s5 = s.swapcase()
 print(s5)
