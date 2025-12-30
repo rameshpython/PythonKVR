@@ -1,0 +1,10 @@
+s1 = set( )
+print(s1,type(s1),id(s1))
+
+s1.add("python")
+s1.add("java")
+s1.add(34.76)
+s1.add(34)
+s1.add(True)
+s1.add("HTML")
+print(s1,type(s1),id(s1))

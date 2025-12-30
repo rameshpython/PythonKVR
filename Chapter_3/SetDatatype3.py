@@ -36,7 +36,7 @@ s1=set(s)
 print(s1,type(s1))
 
 a=10
-#s=set(a) #TypeError: 'int' object is not iterable
+# s=set(a) #TypeError: 'int' object is not iterable
 s=set([a])
 print(s,type(s))
 s=set((a,))
